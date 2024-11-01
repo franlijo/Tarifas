@@ -1,0 +1,30 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Ignorar dependencias de Node y Angular
+app-tarifas/node_modules/
+app-tarifas/dist/
+app-tarifas/.angular/cache/
+app-tarifas/.angular/config.json
+app-tarifas/.env
+
+# Ignorar dependencias de .NET (WebAPI)
+tarifaAPI/bin/
+tarifaAPI/obj/
+tarifaAPI/*.db
+tarifaAPI/*.db-journal
+tarifaAPI/appsettings.*.json
+tarifaAPI/wwwroot/
+tarifaAPI/.vscode/
+tarifaAPI/.env
+
+# Archivos generales y de configuración locales
+*.log
+*.tmp
+*.env
+.vscode/
+.DS_Store
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

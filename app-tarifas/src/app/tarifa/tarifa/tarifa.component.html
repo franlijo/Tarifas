@@ -1,0 +1,26 @@
+<div class="tarifas-container">
+    <h2>Lista de Tarifas</h2>
+    <table class="tarifas-table">
+      <thead>
+        <tr>
+          <th>Desde Fecha</th>
+          <th>Hasta Fecha</th>
+          <th>Desde Trabajadores</th>
+          <th>Hasta Trabajadores</th>
+          <th>Importe por Trabajador</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        @for (tarifa of tarifas; track $index) {
+          <td>{{ tarifa }}</td>
+          <td>{{ tarifa }}</td>
+          <td>{{ tarifa }}</td>
+          <td>{{ tarifa }}</td>
+          <td>{{ tarifa }}</td>
+        }
+        </tr>
+    </tbody>
+    </table>
+  </div>
+  
